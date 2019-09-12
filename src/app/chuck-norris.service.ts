@@ -6,7 +6,7 @@ import { HttpClient }    from '@angular/common/http';
 })
 export class ChuckNorrisService {
 
-  endpoint = "http://api.icndb.com/jokes/random";
+  endpoint = "https://api.icndb.com/jokes/random";
 
   constructor(private http: HttpClient) {
   }
