@@ -182,7 +182,7 @@ __webpack_require__.r(__webpack_exports__);
 let ChuckNorrisService = class ChuckNorrisService {
     constructor(http) {
         this.http = http;
-        this.endpoint = "http://api.icndb.com/jokes/random";
+        this.endpoint = "https://api.icndb.com/jokes/random";
     }
     getRandomJoke() {
         return this.http.get(this.endpoint);

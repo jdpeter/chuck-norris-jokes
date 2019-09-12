@@ -189,7 +189,7 @@ __webpack_require__.r(__webpack_exports__);
 var ChuckNorrisService = /** @class */ (function () {
     function ChuckNorrisService(http) {
         this.http = http;
-        this.endpoint = "http://api.icndb.com/jokes/random";
+        this.endpoint = "https://api.icndb.com/jokes/random";
     }
     ChuckNorrisService.prototype.getRandomJoke = function () {
         return this.http.get(this.endpoint);
